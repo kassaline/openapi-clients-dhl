@@ -1,0 +1,18 @@
+# # Shipper
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**name1** | **string** | Name1. Line 1 of name information |
+**name2** | **string** | An optional, additional line of name information | [optional]
+**name3** | **string** | An optional, additional line of name information | [optional]
+**addressStreet** | **string** | Line 1 of the street address. This is just the street name. Can also include house number. |
+**addressHouse** | **string** | Line 1 of the street address. This is just the house number. Can be added to street name instead. | [optional]
+**postalCode** | **string** | Mandatory for all countries but Ireland that use a postal code system. | [optional]
+**city** | **string** | city |
+**country** | [**\OpenAPI\Client\Dhl\Model\Country**](Country.md) |  |
+**contactName** | **string** | optional contact name. (this is not the primary name printed on label) | [optional]
+**email** | **string** | Optional contact email address of the shipper | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
