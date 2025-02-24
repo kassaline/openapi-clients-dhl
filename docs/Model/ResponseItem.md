@@ -5,6 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **shipmentNo** | **string** |  | [optional]
+**routingCode** | **string** | Routing code of the consignee address | [optional]
 **returnShipmentNo** | **string** |  | [optional]
 **sstatus** | [**\OpenAPI\Client\Dhl\Model\RequestStatus**](RequestStatus.md) |  |
 **shipmentRefNo** | **string** |  | [optional]
